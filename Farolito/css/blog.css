@@ -1,0 +1,38 @@
+div[name=blog]{
+	background-color: #E6E6E6;
+	color: #989898;
+	height: 250px;
+	margin-top: 20%;
+}
+div.container{
+	margin-bottom: 10%
+}
+div[name=blog]:hover{
+	background-color: #ffc200;
+	color: white;
+	height: 250px;
+	margin-top: 20%;
+}
+
+div[name=blog]>img{
+	border-radius: 100%;
+	margin: -10% 0 8% 0;
+}
+
+h1{
+	font-family: 'NeutraText-BookAlt';
+	font-size: 38px;
+	padding-top: 10%
+}
+ h3,p{
+ 	font-family:'NeutraText-LightAlt';
+ 	font-size: 16px;
+ 	text-align: left;
+ 	margin: 5%;
+ 	line-height: 1.2em
+ }
+
+ h3:hover{ 
+ 	color: #ff6a49
+ }
+

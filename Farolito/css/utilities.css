@@ -1,0 +1,113 @@
+
+@font-face{
+	font-family:MuseoSans;
+	src: url(../Fuente/Cuerpodetexto/MuseoSans.otf);
+}
+@font-face{
+	font-family:MuseoSans_0;
+	src: url(../Fuente/Cuerpodetexto/MuseoSans_0.otf);
+}
+@font-face{
+	font-family:MuseoSans_1;
+	src: url(../Fuente/Cuerpodetexto/MuseoSans_1.otf);
+}
+@font-face{
+	font-family:MuseoSans_2;
+	src: url(../Fuente/Cuerpodetexto/MuseoSans_2.otf);
+}
+@font-face{
+	font-family:MuseoSans_3;
+	src: url(../Fuente/Cuerpodetexto/MuseoSans_3.otf);
+}
+@font-face{
+	font-family:NeutraText-DemiAlt;
+	src: url(../Fuente/TitularesNeutratext/NeutraText-DemiAlt.otf);
+}
+@font-face{
+	font-family:NeutraText-BookAlt;
+	src: url(../Fuente/TitularesNeutratext/NeutraText-BookAlt.otf);
+}
+
+@font-face{
+	font-family:NeutraText-Light;
+	src: url(../Fuente/TitularesNeutratext/NeutraText-Light.otf);
+}
+
+@font-face{
+	font-family:NeutraText-LightAlt;
+	src: url(../Fuente/TitularesNeutratext/NeutraText-LightAlt.otf);
+}
+
+
+/*Alineacion textos*/
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left{
+	text-align: left;
+}
+
+/* utilidades*/
+.mt-5{
+	margin-top: 5%
+}
+
+/*Colores en Texto */
+.t-celeste{
+	color:#28c5e6
+}
+.t-gris{
+	color:#989898
+}
+.t-g-oscuro{
+	color:#4d4545
+}
+.t-naranja{
+	color: #ff6a49
+}
+.t-amarillo{
+	color: #FCF579
+}
+
+/*Indicador hacia abajo*/
+section>img{
+	border-radius: 100%;
+	margin-top: -3%;
+}
+
+/*Links*/
+a{
+	text-decoration: none;
+}
+button a{
+	text-decoration: none;
+	color: white
+}
+button:hover{
+	zoom:110%;
+}
+
+/*---------píe de página--------*/
+footer{
+	background-color: #989898;
+	padding:0 3% 1% 3%;
+	color: white;
+
+}
+/*logos redes*/
+footer img{
+	border-radius: 100%;
+	margin-top: -1%
+}
+/*copyright*/
+div[name=copy]{
+	float: right;
+	font-family:'MuseoSans_0';
+	font-size: 14px;
+	padding-top: 1%
+}

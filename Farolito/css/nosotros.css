@@ -1,0 +1,87 @@
+
+/*INFORMACION NOSOTROS INICIO*/
+section[name=info]{
+	background-image: url(../img/img_nosotros-02.png);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 500px;
+}
+section[name=info] div{
+	margin: auto;
+	text-align: center;
+	color: white;
+	padding-top: 9%
+}
+section[name=info] p{
+	font-family:'NeutraText-LightAlt';
+	font-size: 22px;
+	line-height: 1.5em
+}
+/*ENCABEZADOS*/
+h1{
+	font-family: 'NeutraText-BookAlt';
+	font-size: 38px;
+}
+h3{
+	font-family:'NeutraText-LightAlt';
+	font-size: 26px;
+}
+
+h4{
+	font-family:'MuseoSans_0';
+	font-size: 17px
+}
+
+p{
+	font-family:'MuseoSans';
+	font-size: 17px;
+	line-height: 1.5em
+}
+/*contenido*/
+section[name=info] p{
+	font-family:'NeutraText-LightAlt';
+	font-size: 22px;
+	line-height: 1.5em
+}
+/*imagenes*/
+div[name=foto]{
+    margin: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border:solid 5px #989898;
+}
+div[name=face]{
+	background-image: url(../img/img-04.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border:solid 5px #989898;
+}
+/*PLECAS ENTRE SECCIONES*/
+hr{
+	border: dashed 1px #989898;
+	margin:5% 0 
+}
+/*Fondo naranja, genios*/
+section[name=genios]{
+	background-color: #ff6a49;
+	color: white;
+	margin-top:10%;
+	padding-bottom: 10%
+
+}
+/*PLECAS GENIOS*/
+section[name=genios] hr{
+	border: dashed 1px white;
+	width: 30%;
+	margin: auto
+}
+
+
+

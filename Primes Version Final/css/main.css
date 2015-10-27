@@ -1,0 +1,299 @@
+*{
+	font-family:'FontAwesome', Sans-serif;
+}
+
+/*menú*/
+header{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+}
+/*logo primes*/
+header img{
+	margin: 3% 20%
+}
+
+/*Menú*/
+ul{
+	margin:2.5% 10%;
+
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 4%;
+	float: right;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+li a:hover{
+	color: #0dc0c0;
+	transition: all 0.5s ease;
+
+}
+
+div[name=logo]{
+	margin:8% 15%;
+	font-size:1.3em;
+}
+
+/*INICIO*/
+section[name=inicio]{
+	background-image: url(../img/background/hero.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 650px;
+    color: white
+}
+
+.filtro{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,0.6);
+}
+
+/*ENCABEZADO E INFO INICIO*/
+section[name=inicio] h1{
+	font-size: 3.2em;
+	font-weight: normal;
+}
+
+/*BOTONES: PORTFOLIO / LEARN+ / LOAD+ / PURCHASE / CALL_TO_ACTION*/
+div[name=b-inicio] button,
+button[name=load], 
+button[name=purchase],
+button[name=call_to]{
+	background-color: rgb(40,40,50);
+	border:solid 1px rgb(30,30,35);
+	color: rgb(190,190,190);
+	padding: 1.2%;
+	margin:4% 2%;
+	font-size: 18px
+}
+
+/*---BUTTON--HOVER: PORTFOLIO / LEARN+ / CALL_TO_ACTION / SUBMIT*/
+div[name=b-inicio] button:hover,
+button[name=call_to]:hover,
+form[action=contact_us] button:hover{
+	background-color: rgba(240,240,240,0.2);
+	border:solid 1px rgba(240,240,240,0.5);
+	color: white;
+	transition: all 0.5s ease;
+}
+
+/*INFORMACION: ICONO-PARRAFO*/
+/*iconos*/
+section[name=info] h1{
+	font-family: 'ElegantIcons';
+	font-size: 38px;
+    color: #59c5dc;
+}
+/*lorem ipsum*/
+section[name=info] h3{
+    color:rgb(70,70,80);
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 2em
+}
+/*info parrafo*/
+section[name=info] p, section[name=infoleft] p{
+    color:gray;
+    font-weight: normal;
+    font-size: 0.9em
+}
+
+h4{
+	font-size: 1.4em;
+	font-weight: normal;
+}
+/* -----seccion MORE FEATURES----*/
+section[name=more-f]{
+	background-image: url(../img/laptop-features.png);
+	background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    color: white
+}
+/*encabezado section*/
+section.bg-gray h1, section[name=customers] h1,
+section[name=follow] h1{
+	color:rgb(70,70,80);
+	font-weight: normal;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+
+/* -----seccion info parrafos left---- */
+section[name=infoleft] h3{
+	font-weight: normal;
+	color:rgb(70,70,80);
+	font-size: 1em
+}
+
+/* iconos*/
+section[name=infoleft]span{
+	float: left
+}
+
+
+/*seccion portfolio*/
+
+.bg_show{
+	background-color: white;
+	box-shadow: 2px 2px 5px #999;
+	padding: 20px;
+	margin: 5% 0 
+}
+/*OPCIONES PORTFOLIO*/
+div[name=options] button{
+	color:rgb(70,70,80);
+	border:none;
+	background-color: white;
+	padding: 1%;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 2%
+}
+/*---BUTTON----HOVER:OPTIONS / LOAD+/ PURCHASE---*/
+button[name=load]:hover, 
+button[name=purchase]:hover,
+div[name=options] button:hover{
+	background-color: #0dc0c0;
+	color: white;
+	border: none;
+	transition: background-color 0.5s ease;
+}
+
+
+/*CALL TO ACTION*/
+section[name=call]{
+	background-image: url(../img/background/city.jpg);
+	height: 400px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+/*SECTION CHOSE THE PACKAGE*/
+.package{
+	background-color:rgb(40,40,50);
+	color: white;
+	font-size: 2em;
+	padding: 10%
+}
+.package:hover{
+	background-color: #0dc0c0;
+	transition: background-color 0.5s ease;
+}
+/*texto*/
+div.bg_show div.bg-gray{
+	padding:15% 10%;
+	color:rgb(70,70,80);
+	font-size: 1.2em;
+	margin-bottom: 10%
+}
+
+/*texto iformación chose package*/
+div[name=package_info] p{
+	border-bottom: solid 1px rgb(240, 240, 240);
+	width: 80%;
+	margin:auto;
+	padding: 5%;
+	color: gray
+}
+.price{
+	font-size: 1.5em;
+}
+
+/*---CUSTOMERS----*/
+section[name=customers] img{
+	border-radius: 100%;
+	width: 9%
+}
+section[name=follow] p,
+section[name=customers] p{
+	color: gray;
+	line-height: 1.5em	
+}
+
+.by{
+	color: rgb(40,40,50);
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 1.5em
+}
+
+/*--CONTACT--*/
+section[name=contact]{
+	background-image: url(../img/background/contactus.jpg);
+	height:625px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+section[name=contact] h1{
+	font-weight: normal;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+/*--FORMULARIO CONTACT--*/
+label{
+	font-size: 1.4em
+}
+/*--ESPACIOS FORMULARIO--*/
+input, textarea{
+	font-size: 1em;
+	width: 85%;
+	padding: 2%;
+	margin-top: 3%;
+	border:none;
+	background-color: rgba(250,250,250,.2);
+}
+/*---BUTTON:SUBMIT---*/
+form[action=contact_us] button{
+	border:none;
+	display: block;
+	font-size: 1.2em;
+	color: white;
+	background-color: #0dc0c0;
+	margin-top: 2%;
+	padding: 2% 5%;
+}
+
+div[name=add] p{
+	display: inline-block;
+	margin-left: 2%
+}
+/*--info CONTACT--*/
+div[name=info_contact] p{
+	font-size: .9em;
+	line-height: 1.5em;
+	margin-top: 7%
+}
+
+
+section[name=follow] span{
+	font-size: 2.5em;
+	color: rgb(40,40,50);
+	margin:1%;
+}
+/*---pie de pagina----*/
+footer{
+	font-family: sans-serif;
+	color:#888;
+	text-align:center;
+	font-size: .75em;
+	padding: 3%;
+	background-color:rgb(35,35,35);
+	margin-top: 5%
+}

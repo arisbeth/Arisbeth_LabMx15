@@ -1,0 +1,79 @@
+/* menu y header */
+
+header{
+	text-align: center
+}
+ul{
+	margin: 2%
+}
+li{
+	display: inline;margin: 0 3%; 
+}
+li a{
+	color:#BDBDBD
+}
+/*BOTON OFERTA*/
+.dance_1{background-image: url("../img/dance_1.jpg");
+height: 400px}
+
+/*OFERTA DE CLASES*/
+.fondo_2{
+	background-image: url("../img/textura_2.jpg");
+	height:400px;
+}
+
+/*BOTÓN OFERTA DE CLASES*/
+.button2{
+	background-color: #0B2161;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	padding: 20px 80px;
+	font-size: 16px;
+	margin-top: 10%
+}
+button:hover{
+	transition: background-color 0.5s ease;
+  	opacity: .5
+}
+/* FRASE Y PLECA DECORATIVA*/
+.tg{color:gray;}
+
+.decoration_1{
+	width:15%;
+	position: absolute;
+	margin:7%;
+	padding-top: 5%
+}
+
+/*NUESTROS INSTRUSTORES*/
+
+td{
+	height: 300px;
+  border: 2px solid #0B2161;
+}
+.instructores1{
+	background-image: url("../img/instructor_4.jpg")
+}
+.instructores2{
+	background-image: url("../img/profesor_9.jpg");
+}
+.button3{
+	background-color: #0B2161;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	padding: 20px 150px;
+	font-size: 16px; 
+	position: absolute;
+	margin:21.2% 0 0 30%
+}
+
+/*SEGUNDA FRASE*/
+.frase2{
+	font-size:30px;
+	font-style: italic;
+	margin: 8%;
+}
+
+.mapa{margin: 5%}

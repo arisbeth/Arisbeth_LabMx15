@@ -1,0 +1,68 @@
+/* menu opciones lg / md */
+menu li{
+	display: inline; 
+	margin-right: 6%;
+}
+menu li a{
+	text-decoration: none;
+	color: black
+}
+/* menu xs responsive*/
+button[type=button]{
+	background: none;
+	border: none;
+}
+
+/*MENU OPCIONES*/
+menu{
+	background-color: #D8D8D8;
+	padding:5% 2% 1%;
+
+}
+
+.jumbotron p{
+	font-size: 1em !important;
+	margin-left: 
+}
+
+.badge{
+	border-radius: 0!important;
+	padding: 3%;
+	font-size: 1.1em
+}
+
+div[name=video-description]{
+	background-color: #D8D8D8
+}
+
+
+/*webzone: bootstrap navbarc class*/
+.navbar-inverse{
+	width: 15%;
+	color: white;
+	display: inline;
+	font-size: .8em;
+	padding: 1% 2%
+}
+
+hr{
+	border-color: gray}
+
+span~h4{
+	display: inline
+	font-size: 1.2em
+}
+
+div[name=fecha]{
+	background-color: gray;
+	width:15%;
+	height: 15%;
+	text-align: center;
+	padding: 1%;
+	float: left;
+}
+
+span[name=links] a{
+	text-decoration:underline;color:black;
+}
+

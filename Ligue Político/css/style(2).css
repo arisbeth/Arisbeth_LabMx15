@@ -1,0 +1,180 @@
+body{
+	font-family: Helvetica;
+}
+/*logo*/
+.uno{
+	background-color:rgba(225,225,225,0.7);
+	position: fixed;
+	width: 100%;
+	padding: 1%;
+	box-shadow: 0px 0px 20px 0px;
+}
+
+div.uno img{
+	width:10%;
+	}
+/*Fondo votantes*/
+.fondo1{
+	background-image: url("../img/gente.jpg");
+	background-size: cover;
+	height: 1000px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.negro{
+	width: 100%;
+	height: 1000px;
+	background-color:rgba(116,94,197,0.5);
+}
+
+/*Burbuja 1*/
+h1{
+	color:white;
+	font-size: 300%;
+	text-align: center;
+	margin-left: 40%;
+	margin-top: -59%;
+	padding: 6%;
+
+}
+.mt{
+	margin-top: 13%;
+}
+
+div.col-5 img{
+	margin-top: 5%;
+}
+div.col-12 button{
+	background-color: #30cb70;
+	color:white;
+	padding: 1% 2% 1% 2%;
+	border-style: none;
+	border-radius: 5%;
+	font-size: 100%;
+	margin-left: 61.5%;
+	margin-top: 1.5%;
+}
+
+div.col-7 img{
+	opacity: .3;
+	width: 60%;
+	margin-top: -10%;
+	margin-left: 40%;
+}
+/*Características*/
+h2{
+	color:#2E2E2E;
+	font-size: 270%;
+	text-align: center;
+	margin-top: 10%;
+}
+h2+p{
+	color:gray;
+	text-align: center;
+	margin-top: 1%;
+}
+
+.au{
+	margin: auto;
+}
+/*Iconos*/
+
+h3{
+	text-align: center;
+	padding: 7%;
+	font-size: 110%;
+}
+
+hr{
+	margin: auto;
+	width: 30%;
+	height: 3px;
+	border-style: none;
+	margin-bottom: 6%;
+}
+
+div.col-4 img{
+	width: 60%;
+}
+
+.loca:hover{
+	background-image: url("../img/localizacionicono.png");
+	background-position: center;
+	background-repeat:no-repeat;
+	-webkit-filter: hue-rotate(109deg);
+	-moz-filter: hue-rotate(109deg);
+	-o-filter: hue-rotate(109deg);
+	-ms-filter: hue-rotate(109deg);
+	transform: scale(1.1);
+}
+
+.cono:hover{
+	background-image: url("../img/3DE3icono.png");
+	background-position: center;
+	background-repeat:no-repeat;
+	-webkit-filter: hue-rotate(109deg);
+	-moz-filter: hue-rotate(109deg);
+	-o-filter: hue-rotate(109deg);
+	-ms-filter: hue-rotate(109deg);
+	transform: scale(1.1);
+}
+
+.inte:hover{
+	background-image: url("../img/sendicon.png");
+	background-position: center;
+	background-repeat:no-repeat;
+	-webkit-filter: hue-rotate(109deg);
+	-moz-filter: hue-rotate(109deg);
+	-o-filter: hue-rotate(109deg);
+	-ms-filter: hue-rotate(109deg);
+	transform: scale(1.1);
+}
+
+.c{
+	text-align: center;
+}
+
+.loc{
+	background-color: #DF3A01;
+}
+
+.con{
+	background-color: #30cb70
+}
+
+.int{
+	background-color: #2E9AFE
+}
+
+hr+p{
+	color:gray;
+	text-align: center;
+	font-size: 84%;
+	line-height: 170%;
+	padding: 5%;
+}
+/*Fondo gris*/
+.fondo2{
+	background-color: #2E2E2E;
+	height: 550px;
+
+}
+h5{
+	color:white;
+	font-size: 350%;
+	font-weight: lighter;
+	text-align: right;
+	margin-top: 25%;
+}
+div.col-5 p{
+	color:white;
+	margin-bottom: 10%;
+	margin-top: 5%;
+}
+
+div.col-1 img{
+	margin-bottom: 80%;
+}
+

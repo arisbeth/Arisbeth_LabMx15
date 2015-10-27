@@ -1,0 +1,47 @@
+
+h1{
+	font-family: 'NeutraText-BookAlt';
+	font-size: 38px;
+	padding-top: 10%
+}
+
+img+hr{
+	border: solid 1px #28c5e6;
+	width: 20%;
+	display: inline-block;
+	margin: 0 -2% 2%
+}
+
+div.row.mt-2 span{
+	margin: 0 3% 0 8%;
+	font-family: 'NeutraText-LightAlt';
+	font-size: 22px;
+}
+
+.mt-2{
+	margin-top: 2%
+}
+
+div.col-8 hr{
+	border:dashed 1px #989898;
+	margin-top: 5%
+}
+
+
+label.t-celeste{
+	font-family: 'NeutraText-LightAlt';
+	font-size: 32px;
+
+}
+
+label.t-naranja{
+	font-family: 'NeutraText-LightAlt';
+	font-size: 22px;
+	display: block;
+}
+
+
+
+
+
+

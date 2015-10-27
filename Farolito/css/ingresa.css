@@ -1,0 +1,44 @@
+form[action=ingresa]{
+	border: 6px solid #BDBDBD;
+    border-radius: 20px;
+    width:40%;
+    padding: 45px 45px 20px;
+    margin:10% 28%;
+    background-color: white;
+	box-shadow: 0px 0px 40px 2px #4d4545;
+}
+form[action=ingresa] h1{
+	font-family: 'NeutraText-BookAlt'
+}
+
+/*areas input text de formurlario*/
+form[action="ingresa"] input{
+	width: 80%;
+	display: block;
+	margin-top:5%;
+	padding: 8px;
+    border: 1px solid .5;
+    resize: none;
+	font-size: 16px;
+	font-weight:normal; 
+}
+
+form[action="ingresa"] button{
+	float: right;
+	background:#28c5e6;
+	border: none;
+	border-radius: 10px;
+	font-family: 'MuseoSans_0';;
+	font-weight: bold;
+	color: white;
+	font-size: 14px;
+	padding: 2.5% 6%;
+	margin:6% 0
+}
+form[action="ingresa"] div{
+	font-family: 'MuseoSans_0';
+	text-align: left;
+	font-size: 16px;
+	margin: 20% 0 10%;
+}
+

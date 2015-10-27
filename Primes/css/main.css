@@ -1,0 +1,241 @@
+*{
+	font-family:'FontAwesome', Sans-serif;
+}
+
+/*menú*/
+header{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+}
+/*logo primes*/
+header img{
+	margin: 3% 20%
+}
+
+/*Menú*/
+ul{
+	margin:2.5% 10%;
+
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 4%;
+	float: right;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-size: .9em;
+	letter-spacing: .1em
+}
+
+li a:hover{
+	color: #0dc0c0;
+	transition: all 0.5s ease;
+
+}
+
+div[name=logo]{
+	margin:8% 15%;
+	font-size:1.3em;
+}
+
+/*INICIO*/
+section[name=inicio]{
+	background-image: url(../img/background/hero.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 650px;
+    color: white
+}
+
+.filtro{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,0.6);
+}
+
+/*ENCABEZADO E INFO INICIO*/
+section[name=inicio] h1{
+	font-size: 3.2em;
+	font-weight: normal;
+}
+
+/*BOTONES: PORTFOLIO / LEARN+ / LOAD+ / PURCHASE / CALL_TO_ACTION*/
+div[name=b-inicio] button,
+button[name=load], 
+button[name=purchase],
+button[name=call_to]{
+	background-color: rgb(40,40,50);
+	border:solid 1px gray;
+	color: rgb(190,190,190);
+	padding: 1.2%;
+	margin:4% 2%;
+	font-size: 18px
+}
+
+/*HOVER: PORTFOLIO / LEARN+ / CALL_TO_ACTION*/
+div[name=b-inicio] button:hover,
+button[name=call_to]:hover{
+	background-color: rgba(240,240,240,0.2);
+	border:solid 1px white .5;
+	color: white;
+	transition: background-color 0.5s ease;
+}
+
+/*INFORMACION: ICONO-PARRAFO*/
+/*iconos*/
+section[name=info] h1{
+	font-family: 'ElegantIcons';
+	font-size: 38px;
+    color: #59c5dc;
+}
+/*lorem ipsum*/
+section[name=info] h3{
+    color:rgb(70,70,80);
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 2em
+}
+/*info parrafo*/
+section[name=info] p, section[name=infoleft] p{
+    color:gray;
+    font-weight: normal;
+    font-size: 0.9em
+}
+
+h4{
+	font-size: 1.4em;
+	font-weight: normal;
+}
+/* -----seccion MORE FEATURES----*/
+section[name=more-f]{
+	background-image: url(../img/laptop-features.png);
+	background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    color: white
+}
+/*encabezado section*/
+section.bg-gray h1, section[name=customers] h1,
+section[name=follow] h1{
+	color:rgb(70,70,80);
+	font-weight: normal;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+
+/* -----seccion info parrafos left---- */
+section[name=infoleft] h3{
+	font-weight: normal;
+	color:rgb(70,70,80);
+	font-size: 1em
+}
+
+/* iconos*/
+section[name=infoleft]span{
+	float: left
+}
+
+
+/*seccion portfolio*/
+
+.bg_show{
+	background-color: white;
+	box-shadow: 2px 2px 5px #999;
+	padding: 20px;
+	margin: 5% 0 
+}
+/*OPCIONES PORTFOLIO*/
+div[name=options] button{
+	color:rgb(70,70,80);
+	border:none;
+	background-color: white;
+	padding: 1%;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 2%
+}
+/*HOVER:OPTIONS / LOAD+/ PURCHASE*/
+button[name=load]:hover, 
+button[name=purchase]:hover,
+div[name=options] button:hover{
+	background-color: #0dc0c0;
+	color: white;
+	border: none;
+	transition: background-color 0.5s ease;
+}
+
+
+/*CALL TO ACTION*/
+section[name=call]{
+	background-image: url(../img/background/city.jpg);
+	height: 400px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+/*SECTION CHOSE THE PACKAGE*/
+.package1_3{
+	background-color:rgb(40,40,50);
+	color: white;
+	font-size: 2em;
+	padding: 10%
+}
+.package2{
+	background-color: #0dc0c0;
+	color: white;
+	font-size: 2em;
+	padding: 10%
+}
+/*texto*/
+div.bg_show div.bg-gray,{
+	padding:15% 10%;
+	color:rgb(70,70,80);
+	font-size: 1.2em;
+	margin-bottom: 10%
+}
+/*texto iformación chose package*/
+div[name=package_info] p{
+	border-bottom: solid 1px rgb(240, 240, 240);
+	width: 80%;
+	margin:auto;
+	padding: 5%;
+	color: gray
+}
+.price{
+	font-size: 1.5em;
+}
+
+/*---CUSTOMERS----*/
+section[name=customers] img{
+	border-radius: 100%;
+	width: 9%
+}
+
+/*--CONTACT--*/
+section[name=contact]{
+	background-image: url(../img/background/contactus.jpg);
+	height: 500px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+/*---pie de pagina----*/
+footer{
+	font-family: sans-serif;
+	color:#888;
+	text-align:center;
+	font-size: .8em;
+	padding: 3%;
+	background-color:rgb(35,35,35)
+}
